@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"0004_hal_lib_led_on\startup_stm32f103x6.o"
+"0004_hal_lib_led_on\main.o"
+"0004_hal_lib_led_on\stm32f1xx_it.o"
+"0004_hal_lib_led_on\stm32f1xx_hal_msp.o"
+"0004_hal_lib_led_on\stm32f1xx_hal_gpio_ex.o"
+"0004_hal_lib_led_on\stm32f1xx_hal_tim.o"
+"0004_hal_lib_led_on\stm32f1xx_hal_tim_ex.o"
+"0004_hal_lib_led_on\stm32f1xx_hal.o"
+"0004_hal_lib_led_on\stm32f1xx_hal_rcc.o"
+"0004_hal_lib_led_on\stm32f1xx_hal_rcc_ex.o"
+"0004_hal_lib_led_on\stm32f1xx_hal_gpio.o"
+"0004_hal_lib_led_on\stm32f1xx_hal_dma.o"
+"0004_hal_lib_led_on\stm32f1xx_hal_cortex.o"
+"0004_hal_lib_led_on\stm32f1xx_hal_pwr.o"
+"0004_hal_lib_led_on\stm32f1xx_hal_flash.o"
+"0004_hal_lib_led_on\stm32f1xx_hal_flash_ex.o"
+"0004_hal_lib_led_on\stm32f1xx_hal_exti.o"
+"0004_hal_lib_led_on\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "0004_HAL_LIB_LED_ON\0004_HAL_LIB_LED_ON.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "0004_HAL_LIB_LED_ON.map" -o 0004_HAL_LIB_LED_ON\0004_HAL_LIB_LED_ON.axf

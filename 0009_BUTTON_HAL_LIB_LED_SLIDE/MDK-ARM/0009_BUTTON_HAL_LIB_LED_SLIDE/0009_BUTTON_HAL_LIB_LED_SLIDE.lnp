@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"0009_button_hal_lib_led_slide\startup_stm32f103x6.o"
+"0009_button_hal_lib_led_slide\main.o"
+"0009_button_hal_lib_led_slide\stm32f1xx_it.o"
+"0009_button_hal_lib_led_slide\stm32f1xx_hal_msp.o"
+"0009_button_hal_lib_led_slide\stm32f1xx_hal_gpio_ex.o"
+"0009_button_hal_lib_led_slide\stm32f1xx_hal_tim.o"
+"0009_button_hal_lib_led_slide\stm32f1xx_hal_tim_ex.o"
+"0009_button_hal_lib_led_slide\stm32f1xx_hal.o"
+"0009_button_hal_lib_led_slide\stm32f1xx_hal_rcc.o"
+"0009_button_hal_lib_led_slide\stm32f1xx_hal_rcc_ex.o"
+"0009_button_hal_lib_led_slide\stm32f1xx_hal_gpio.o"
+"0009_button_hal_lib_led_slide\stm32f1xx_hal_dma.o"
+"0009_button_hal_lib_led_slide\stm32f1xx_hal_cortex.o"
+"0009_button_hal_lib_led_slide\stm32f1xx_hal_pwr.o"
+"0009_button_hal_lib_led_slide\stm32f1xx_hal_flash.o"
+"0009_button_hal_lib_led_slide\stm32f1xx_hal_flash_ex.o"
+"0009_button_hal_lib_led_slide\stm32f1xx_hal_exti.o"
+"0009_button_hal_lib_led_slide\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "0009_BUTTON_HAL_LIB_LED_SLIDE\0009_BUTTON_HAL_LIB_LED_SLIDE.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "0009_BUTTON_HAL_LIB_LED_SLIDE.map" -o 0009_BUTTON_HAL_LIB_LED_SLIDE\0009_BUTTON_HAL_LIB_LED_SLIDE.axf

@@ -1,0 +1,1 @@
+0016_hal_multi_external_interrupt\startup_stm32f103x6.o: startup_stm32f103x6.s

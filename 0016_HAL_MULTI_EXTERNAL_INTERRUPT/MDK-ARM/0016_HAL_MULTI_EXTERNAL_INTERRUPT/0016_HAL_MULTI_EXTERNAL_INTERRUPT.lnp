@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"0016_hal_multi_external_interrupt\startup_stm32f103x6.o"
+"0016_hal_multi_external_interrupt\main.o"
+"0016_hal_multi_external_interrupt\stm32f1xx_it.o"
+"0016_hal_multi_external_interrupt\stm32f1xx_hal_msp.o"
+"0016_hal_multi_external_interrupt\stm32f1xx_hal_gpio_ex.o"
+"0016_hal_multi_external_interrupt\stm32f1xx_hal_tim.o"
+"0016_hal_multi_external_interrupt\stm32f1xx_hal_tim_ex.o"
+"0016_hal_multi_external_interrupt\stm32f1xx_hal.o"
+"0016_hal_multi_external_interrupt\stm32f1xx_hal_rcc.o"
+"0016_hal_multi_external_interrupt\stm32f1xx_hal_rcc_ex.o"
+"0016_hal_multi_external_interrupt\stm32f1xx_hal_gpio.o"
+"0016_hal_multi_external_interrupt\stm32f1xx_hal_dma.o"
+"0016_hal_multi_external_interrupt\stm32f1xx_hal_cortex.o"
+"0016_hal_multi_external_interrupt\stm32f1xx_hal_pwr.o"
+"0016_hal_multi_external_interrupt\stm32f1xx_hal_flash.o"
+"0016_hal_multi_external_interrupt\stm32f1xx_hal_flash_ex.o"
+"0016_hal_multi_external_interrupt\stm32f1xx_hal_exti.o"
+"0016_hal_multi_external_interrupt\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "0016_HAL_MULTI_EXTERNAL_INTERRUPT\0016_HAL_MULTI_EXTERNAL_INTERRUPT.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "0016_HAL_MULTI_EXTERNAL_INTERRUPT.map" -o 0016_HAL_MULTI_EXTERNAL_INTERRUPT\0016_HAL_MULTI_EXTERNAL_INTERRUPT.axf
